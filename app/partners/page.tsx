@@ -1,12 +1,14 @@
-"use client";
+// "use client";
 
 import React from "react";
 import MediaPartners from "../components/partner/MediaPartners";
 import AssociatePartners from "../components/partner/AssociatePartner";
-// import StrategicPartners from "../components/partners/StrategicPartners";
-// import AssociationPartners from "../components/partners/AssociationPartners";
-// import GovernmentPartners from "../components/partners/GovernmentPartners";
 
+export const metadata = {
+  title:"Event Partners 2025 | Future PropTech Summit Dubai",
+  description:"Meet the strategic partners of Future PropTech Summit 2025. Join global tech brands, real estate leaders & innovators shaping the future of smart property."
+
+}
 const PartnersPage: React.FC = () => {
   const navItems: { href: string; label: string }[] = [
     { href: "#media", label: "Media Partners" },
@@ -14,6 +16,8 @@ const PartnersPage: React.FC = () => {
     { href: "#supporting", label: "Supporting Partners" },
     { href: "#government", label: "Government Partners" },
   ];
+
+
 
   return (
     <div className="scroll-smooth bg-background pb-20 py-20 text-foreground">

@@ -2,10 +2,12 @@
 
 import Image from "next/image";
 import React from "react";
+import type { StaticImageData } from "next/image";
+
 
 interface ExhibitorCardProps {
   name: string;
-  logo: string; // Path to image or a static import
+  logo: string | StaticImageData; // Path to image or a static import
   websiteUrl: string;
   linkedInUrl?: string;
   badgeLabel?: string;
