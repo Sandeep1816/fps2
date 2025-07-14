@@ -1,4 +1,9 @@
-'use client'
+export const metadata = {
+ title: "Register Now | Future PropTech Summit Dubai",
+  description: "Secure your spot at Future PropTech Summit 2025 in Dubai. Register now to join global PropTech leaders, startups, and investors shaping real estate innovation.",
+}
+
+// 'use client'
 
 import { Suspense } from 'react'
 import RegisterPage from '../components/register/registerPage'

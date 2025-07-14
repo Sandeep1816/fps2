@@ -1,3 +1,8 @@
+export const metadata = {
+  title: "PropTech Exhibitors 2025 | Future PropTech Summit Dubai",
+  description: "Explore leading PropTech exhibitors at Future PropTech Summit 2025 in Dubai.",
+};
+
 
 import Link from 'next/link';
 import { ExhibitorsData } from '@/components/exhibitors/exhibitorsData';
