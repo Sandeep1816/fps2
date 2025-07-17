@@ -81,6 +81,7 @@ export default function ParticipantsPage() {
     { src: "/image/exhibitor/NEWD.png", alt: "NEWD" },
     { src: "/image/partners/SBC.png", alt: "SBC" },
     {src:"/image/speakersCompanyLogo/DarkFilled.png",alt:"DarkFilled"},
+    {src:"/image/speakersCompanyLogo/PRVSM.png",alt:"PRVSM"},
   ];
 
   return (
