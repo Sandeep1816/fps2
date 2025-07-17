@@ -257,23 +257,38 @@ His investment group includes companies like Standpoint, D Drones &OPT. Makram h
 
 A thought leader, he has authored four books, 200+ articles and papers, and delivered 100+ webinars, courses, and training. His visionary concept, "Real Estate 6.0," aims to revolutionize the asset class by boosting liquidity, transparency, and accessibility while eliminating inefficiencies.`,
   },
-   {
+  {
     name: "Kira Negron",
     jobTitle: "President",
     companyName: "Saudi Business Council",
-    linkedIn: "https://linkedin.com/in/saudibusinesscouncil", 
-    speakerImage: "/image/speakers/Kira.jpeg", 
-    companyLogo: "/image/partners/SBC.png", 
+    linkedIn: "https://linkedin.com/in/saudibusinesscouncil",
+    speakerImage: "/image/speakers/Kira.jpeg",
+    companyLogo: "/image/partners/SBC.png",
     fullBio: `As President of the Saudi Business Council, Kira Negron is dedicated to advancing the Kingdom of Saudi Arabia’s interests and realizing the ambitious goals of Vision 2030. Her leadership is defined by a strong commitment to diplomacy, cross-cultural collaboration, and high-level negotiations that foster mutual growth and prosperity. Under her guidance, the Council actively champions innovation, unity, and excellence, building bridges between Saudi Arabia and the global business community. Kira’s vision is to drive transformative progress, promote sustainable development, ensuring a brighter future for the Kingdom and its people, while honoring the nation’s spiritual and cultural heritage.`,
   },
-   {
+  {
     name: "Robert Farquhar",
     jobTitle: "Head of MENA",
     companyName: " Ctrl Alt",
-    linkedIn: "https://www.linkedin.com/in/robert-farquhar-98a417a6/", 
-    speakerImage: "/image/speakers/Robert.jpeg", 
+    linkedIn: "https://www.linkedin.com/in/robert-farquhar-98a417a6/",
+    speakerImage: "/image/speakers/Robert.jpeg",
     companyLogo: "/image/speakersCompanyLogo/DarkFilled.png",
     fullBio: `Robert Farquhar is Head of MENA at Ctrl Alt, where he leads the firm's regional strategy and growth initiatives. He brings a solid foundation in traditional finance, having structured innovative financial products for NBFIs at Lloyds in London. Since moving to Dubai, Robert has built and scaled multiple ventures across the FinTech and PropTech sectors, developing a deep understanding of the Middle Eastern market. His experience bridges established financial systems and emerging digital asset infrastructure, positioning him at the forefront of the region's rapidly evolving financial services landscape`,
+  },
+  {
+    name: "Akhmed Malorove",
+    jobTitle: " Director of Digital Product Development, Manufaqtury",
+    companyName: "Concord Group",
+    linkedIn: "",
+    speakerImage: "/image/speakers/ahmed.jpg",
+    companyLogo: "/image/speakersCompanyLogo/PRVSM.png",
+    fullBio: `Akhmed Maloroev is a seasoned expert in digital solutions for commercial real estate, with over 8 years of experience in IT and product development. He holds degrees in Political Science and Economics from the Higher School of Economics (HSE) in Moscow.
+
+His career spans multiple industries including PropTech, FoodTech, and E-commerce. Since 2022, Akhmed has led the PropTech division at MANUFAQTURY, one of the leading real estate management and operations companies in Russia.
+
+At MANUFAQTURY, he oversees the development of digital services that streamline and automate office infrastructure management. His key initiatives include Q:OS, a booking system for workspaces, meeting rooms, parking spots, and storage units, and PRYSM, a comprehensive platform that connects landlords, tenants, and property managers in a single digital environment.
+
+PRYSM supports the full lease lifecycle, simplifies access control, and automates service request handling. Today, more than 25,000 users rely on MANUFAQTURY’s PropTech solutions.`,
   },
 ];
 
