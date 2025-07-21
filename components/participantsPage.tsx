@@ -83,6 +83,7 @@ export default function ParticipantsPage() {
     { src: "/image/partners/SBC.png", alt: "SBC" },
     {src:"/image/speakersCompanyLogo/DarkFilled.png",alt:"DarkFilled"},
     {src:"/image/speakersCompanyLogo/PRVSM.png",alt:"PRVSM"},
+    {src:"/image/speakersCompanyLogo/innovo.jpg",alt:"INNOVO"},
 
   ];
 

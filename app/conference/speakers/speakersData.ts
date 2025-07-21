@@ -290,6 +290,15 @@ At MANUFAQTURY, he oversees the development of digital services that streamline 
 
 PRYSM supports the full lease lifecycle, simplifies access control, and automates service request handling. Today, more than 25,000 users rely on MANUFAQTURY’s PropTech solutions.`,
   },
+    {
+    name: "Deepika Verma",
+    jobTitle: " ESG Manager",
+    companyName: "Innovo Group",
+    linkedIn: "https://www.linkedin.com/in/deepika-verma-66969549/",
+    speakerImage: "/image/speakers/Deepika_Panel.jpg",
+    companyLogo: "/image/speakersCompanyLogo/innovo.jpg",
+    fullBio: `Deepika Verma is the ESG Manager at Innovo Group, a construction firm headquartered in the UK with global operations and large footprint in the UAE. With over 20 years of cross-sector experience, she has spent the last several years driving sustainability strategies and ESG integration across complex business operations. Her expertise spans GRI reporting, Scope 3 emissions, stakeholder engagement, and green procurement. Deepika has led multiple corporate sustainability initiatives, including supplier sustainability assessments and GHG emissions management, contributing to Innovo’s commitment to environmental stewardship. She holds certifications such as LEED Green Associate, ISO 14064 Lead Verifier, and GRI Professional. Deepika is also currently pursuing a Master’s in Sustainability and Energy from the University of Cumbria, strengthening her leadership in sustainable development.`,
+  },
 ];
 
 export default speakers;
