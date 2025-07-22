@@ -299,6 +299,15 @@ PRYSM supports the full lease lifecycle, simplifies access control, and automate
     companyLogo: "/image/speakersCompanyLogo/innovo.jpg",
     fullBio: `Deepika Verma is the ESG Manager at Innovo Group, a construction firm headquartered in the UK with global operations and large footprint in the UAE. With over 20 years of cross-sector experience, she has spent the last several years driving sustainability strategies and ESG integration across complex business operations. Her expertise spans GRI reporting, Scope 3 emissions, stakeholder engagement, and green procurement. Deepika has led multiple corporate sustainability initiatives, including supplier sustainability assessments and GHG emissions management, contributing to Innovo’s commitment to environmental stewardship. She holds certifications such as LEED Green Associate, ISO 14064 Lead Verifier, and GRI Professional. Deepika is also currently pursuing a Master’s in Sustainability and Energy from the University of Cumbria, strengthening her leadership in sustainable development.`,
   },
+      {
+    name: "Jorge Carrasco",
+    jobTitle: " Managing Director, Blockchain and Digital Assets",
+    companyName: "FTI Consulting",
+    linkedIn: "https://www.linkedin.com/in/jorgecarrasco/",
+    speakerImage: "/image/speakers/JCarrasco.jpg",
+    companyLogo: "/image/speakersCompanyLogo/FTI_Logo_DarkBlue.png",
+    fullBio: `Jorge Carrasco is a recognized expert in blockchain and digital assets, with a focus on real estate tokenization and financial innovation. As Managing Director at FTI Consulting in Dubai, he advises developers, regulators, and financial institutions on structuring tokenized real estate offerings and regulatory alignment. Jorge has led some of the Middle East’s most ambitious tokenization initiatives, helping transform illiquid real estate assets into accessible digital investment products. With over 15 years of experience, he bridges traditional finance with cutting-edge Web3 infrastructure, shaping the future of real estate capital markets and programmable ownership.`,
+  },
 ];
 
 export default speakers;

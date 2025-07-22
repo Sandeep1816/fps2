@@ -85,6 +85,7 @@ export default function ParticipantsPage() {
     {src:"/image/speakersCompanyLogo/PRVSM.png",alt:"PRVSM"},
     {src:"/image/speakersCompanyLogo/innovo.jpg",alt:"INNOVO"},
     {src:"/image/partners/BNC_Logo.png",alt:"BNC Network"},
+    {src:"/image/speakersCompanyLogo/FTI_Logo_DarkBlue.png",alt:"FTI_Logo_DarkBlue.png"},
 
   ];
 
