@@ -170,7 +170,7 @@ export const supportingPartnersData = [
   name: "BNC Network",
   logo: BNCNetwork,
   website: "http://www.saudibusinesscouncil.com",
-  websiteDisplayText: "",
+  websiteDisplayText: "https://www.bncnetwork.net",
   badgeText: "Supporting Partner",
   description: [
     "BNC Network is the largest project intelligence provider in the Middle East, Africa, and South Asia, tracking over 180,000+ project profiles, 200,000 companies, and 250,000 contacts across the urban, industrial, oil & gas, transport, and utilities sectors in 72 countries. BNC empowers businesses with project leads, market analytics, and sales automation tools to work smart and win projects."

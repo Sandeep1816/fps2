@@ -3,7 +3,9 @@ import {
   blogPostBySlug,
   blogPostsByProject,
 } from "../queries";
-import { SanityDocument } from "next-sanity";
+// import { SanityDocument } from "next-sanity";
+import type { SanityDocument } from 'sanity';
+
 
 export async function getBlogPostsByProject(
   slug: string
