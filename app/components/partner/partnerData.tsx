@@ -10,6 +10,7 @@ import buildAustraliaLogo from "@/public/image/partners/Build logo HR.jpg";
 import businessFocusLogo from "@/public/image/partners/BFM 1000x600.png";
 import entrepreneurLogo from "@/public/image/partners/entrepreneurme.jpg";
 import timesofAILogo from "@/public/image/partners/timesofai 01.png";
+import BNCNetwork from "@/public/image/partners/BNC_Logo.png";
 
 export const mediaPartnersData = [
   {
@@ -163,5 +164,18 @@ export const supportingPartnersData = [
 
       "The institution’s sole mission is to promote the interests of the Kingdom of Saudi Arabia by attracting world-class investment and facilitating transformative partnerships that drive sustainable growth and opportunity for all. Every initiative and alliance undertaken by the SBC reflects a profound sense of responsibility, honoring the welfare and lasting legacy of the Kingdom. The Saudi Business Council warmly welcomes visionary investors and partners from around the globe to join this institution in shaping a future defined by shared prosperity, dynamic innovation, and lasting success in the Kingdom of Saudi Arabia.",
     ],
+
   },
+{
+  name: "BNC Network",
+  logo: BNCNetwork,
+  website: "http://www.saudibusinesscouncil.com",
+  websiteDisplayText: "",
+  badgeText: "Supporting Partner",
+  description: [
+    "BNC Network is the largest project intelligence provider in the Middle East, Africa, and South Asia, tracking over 180,000+ project profiles, 200,000 companies, and 250,000 contacts across the urban, industrial, oil & gas, transport, and utilities sectors in 72 countries. BNC empowers businesses with project leads, market analytics, and sales automation tools to work smart and win projects."
+  ],
+}
+
+  
 ];

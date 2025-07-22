@@ -77,6 +77,9 @@ const PartnersPage: React.FC = () => {
           </div>
         </section>
 
+
+        
+
         {/* Government Partners */}
         <section id="government" className="px-4">
           <h2 className="mb-8 text-center text-4xl font-bold text-primary">
