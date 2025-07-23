@@ -2,13 +2,13 @@ export const blogPostsByProject = `*[
   _type == "blogPost" &&
   defined(slug.current) &&
   project->slug.current == $slug
-] | order(publishedAt desc)[0...12] {
+] | order(publishedAt desc) {
   _id,
   title,
- "mainImage": mainImage.asset->url,
- "categories": categories[]->title,
+  "mainImage": mainImage.asset->url,
+  "categories": categories[]->title,
   "slug": slug.current,
-  "author": author-> name ,
+  "author": author->name,
   publishedAt
 }`;
 
