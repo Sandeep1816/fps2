@@ -7,7 +7,7 @@ import WinnerBenefits from "@/components/awards/winner-benefits"
 import SponsorshipSection from "@/components/awards/sponsorship-section"
 import AwardsDescription from "@/components/awards/awards-description"
 import EnhancedSponsorshipSection from "@/components/awards/enhanced-sponsorship-section"
-import ContactFormSection from "@/components/awards/contact-form-section"
+// import ContactFormSection from "@/components/awards/contact-form-section"
 import CallToActionSection from "@/components/awards/call-to-action-section"
 
 export default function AwardsPage() {
