@@ -78,9 +78,9 @@ export default function EnhancedSponsorshipSection() {
                 <Button className="bg-gradient-to-r from-[#3AC6D9] to-[#408CFF] hover:bg-cyan-600 text-white px-8 py-3 font-semibold">
                   Become a Sponsor
                 </Button></Link>
-                <Button className="bg-gradient-to-r from-[#3AC6D9] to-[#408CFF] hover:bg-cyan-500 text-white px-8 py-3 font-semibold">
+                {/* <Button className="bg-gradient-to-r from-[#3AC6D9] to-[#408CFF] hover:bg-cyan-500 text-white px-8 py-3 font-semibold">
                   Download the Sponsorship Prospectus
-                </Button>
+                </Button> */}
               </div>
             </div>
           </div>

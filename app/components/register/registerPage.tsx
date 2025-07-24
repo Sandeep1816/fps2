@@ -9,13 +9,15 @@ type FormTypes =
   | "delegates"
   | "exhibitors"
   | "sponsor"
-  | "participants";
+  | "participants"
+  | "awards";
 
 const options = [
   { label: "Sponsor", key: "sponsor" },
   { label: "Exhibitors", key: "exhibitors" },
   { label: "Delegates", key: "delegates" },
   { label: "Participants", key: "participants" },
+    { label: "Awards", key: "awards" },
 ];
 
 const formDetails: Record<string, { title: string; description: string }> = {
@@ -38,6 +40,11 @@ const formDetails: Record<string, { title: string; description: string }> = {
     title: "Participant Registration",
     description:
       "Sign up to be a participant at the Future PropTech Summit and experience the latest in real estate innovation.",
+  },
+    awards: {
+    title: "Awards Registration",
+    description:
+      "Awards Registration",
   },
 };
 

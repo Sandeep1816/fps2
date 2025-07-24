@@ -10,7 +10,8 @@ type FormTypes =
   | "delegates"
   | "exhibitors"
   | "sponsor"
-  | "participants";
+  | "participants"
+  | "awards";
 
 export default function RegisterForm({
   type = "enquiry",

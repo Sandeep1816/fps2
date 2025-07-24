@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button"
+import Link from "next/link"
 
 export default function CategoryGuidance() {
   return (
@@ -9,9 +10,11 @@ export default function CategoryGuidance() {
           With 20 carefully curated categories, we understand that choosing the right one can be overwhelming. Whether
           you're a startup, developer, tech provider, or policymaker, we're here to help you.
         </p>
+        <Link href="/register?type=awards">
         <Button size="lg" className="bg-gradient-to-r from-[#3AC6D9] to-[#408CFF] hover:bg-cyan-500 text-white font-semibold px-8 py-3">
           Click Here to Get Category Guidance
         </Button>
+        </Link>
       </div>
     </section>
   )

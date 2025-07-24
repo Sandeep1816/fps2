@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Award, Camera, Megaphone, TrendingUp } from "lucide-react";
 import AwardsPageMainTitle from "./mainTitle";
+import Link from "next/link";
 
 const benefits = [
   {
@@ -52,12 +53,14 @@ export default function WinnerBenefits() {
         </div>
 
         <div className="text-center">
+           <Link href="/register?type=awards">
           <Button
             size="lg"
             className="bg-gradient-to-r from-[#3AC6D9] to-[#408CFF] hover:bg-cyan-500 text-white font-semibold px-8 py-3"
           >
             Nominate Now & Get Recognised
           </Button>
+          </Link>
         </div>
       </div>
     </section>

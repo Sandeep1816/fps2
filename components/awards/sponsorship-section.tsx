@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button"
+import Link from "next/link"
 
 export default function SponsorshipSection() {
   return (
@@ -21,9 +22,12 @@ export default function SponsorshipSection() {
             </p>
           </div>
           <div className="text-center">
+            <Link href="/register?type=awards">
+
             <Button size="lg" className="bg-gradient-to-r from-[#3AC6D9] to-[#408CFF] text-white font-semibold px-8 py-3">
               Explore Sponsorship Opportunities
             </Button>
+            </Link>
           </div>
         </div>
       </div>

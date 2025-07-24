@@ -1,7 +1,13 @@
-import { Button } from "@/components/ui/button"
-import Image from "next/image"
+"use client";
+import AwardsModal from "@/app/components/register/awardsModal";
+import FormSection from "@/app/components/register/formSection";
+import { Button } from "@/components/ui/button";
+import Image from "next/image";
+import Link from "next/link";
+import { useState } from "react";
 
 export default function HeroSection() {
+  const [isOpen, setIsOpen] = useState(false);
   return (
     <section className="relative min-h-screen flex items-center justify-center text-white">
       {/* Background Image */}
@@ -18,19 +24,27 @@ export default function HeroSection() {
 
       {/* Content */}
       <div className="relative z-20 text-center px-4 max-w-4xl mx-auto">
-     
-        <h1 className="text-6xl md:text-7xl font-bold mb-6  text-transparent bg-clip-text bg-gradient-to-r from-[#3AC6D9] to-[#408CFF] ">Future Proptech Awards</h1>
+        <h1 className="text-6xl md:text-7xl font-bold mb-6  text-transparent bg-clip-text bg-gradient-to-r from-[#3AC6D9] to-[#408CFF] ">
+          Future Proptech Awards
+        </h1>
         <p className="text-xl mb-2 max-w-2xl mx-auto">
-          Recognising Excellence | Celebrating Innovation | Defining the Future of Real Estate
+          Recognising Excellence | Celebrating Innovation | Defining the Future
+          of Real Estate
         </p>
-        <p className="text-4xl font-semibold mb-8  text-transparent bg-clip-text bg-gradient-to-r from-[#3AC6D9] to-[#408CFF]">14th October 2025</p>
-        <Button
-          size="lg"
-          className="bg-gradient-to-r from-[#3AC6D9] to-[#408CFF] hover:bg-cyan-500 text-white font-semibold px-8 py-3 text-lg"
-        >
-          SPONSOR AWARDS
-        </Button>
+        <p className="text-4xl font-semibold mb-8  text-transparent bg-clip-text bg-gradient-to-r from-[#3AC6D9] to-[#408CFF]">
+          14th October 2025
+        </p>
+
+          <Button
+            size="lg"
+            className="bg-gradient-to-r from-[#3AC6D9] to-[#408CFF] hover:bg-cyan-500 text-white font-semibold px-8 py-3 text-lg"
+            onClick={() => setIsOpen(true)}
+          >
+            SPONSOR AWARDS
+          </Button>
+      
       </div>
+      <AwardsModal isOpen={isOpen} onClose={() => setIsOpen(false)} />
     </section>
-  )
+  );
 }

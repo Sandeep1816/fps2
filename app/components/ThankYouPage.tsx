@@ -14,13 +14,14 @@ const ThankYouPage = () => {
   const searchParams = useSearchParams()
   const type = (searchParams.get('type') ?? '').toLowerCase()
 
-  const validTypes = ['sponsor', 'exhibitors', 'delegates', 'participants', 'enquiry']
+  const validTypes = ['sponsor', 'exhibitors', 'delegates', 'participants', 'enquiry', 'awards']
   const titleMap: Record<string, string> = {
     sponsor: 'Sponsor',
     exhibitors: 'Exhibitor',
     delegates: 'Delegate',
     participants: 'Participant',
     enquiry: 'Enquiry',
+    awards: 'Awards',
   }
 
   const heading = titleMap[type] || 'Registration'
@@ -70,6 +71,12 @@ const ThankYouPage = () => {
     },
     enquiry: {
       title: 'Thank You For Your Enquiry Registration!',
+      bold: 'You are now part of the Future PropTech Summit community',
+      description: 'Our team will get in touch with you soon.',
+      date: '14 October – 15 October 2025 · Le Méridien Dubai Hotel & Conference Centre',
+    },
+    awards: {
+      title: 'Thank You For Your Awards Registration!',
       bold: 'You are now part of the Future PropTech Summit community',
       description: 'Our team will get in touch with you soon.',
       date: '14 October – 15 October 2025 · Le Méridien Dubai Hotel & Conference Centre',

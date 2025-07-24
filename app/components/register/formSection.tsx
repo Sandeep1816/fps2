@@ -15,7 +15,9 @@ type FormTypes =
   | "delegates"
   | "exhibitors"
   | "sponsor"
-  | "participants";
+  | "participants"
+  | "awards";
+
 
 // ✅ Component to inject UTM parameters
 const UTMSetter = () => {
@@ -84,7 +86,7 @@ const FormSection = ({ type }: { type: FormTypes }) => {
       validationSchema={validationSchema}
       onSubmit={handleSubmit}
     >
-      <Form>
+      <Form className="text-black">
         <UTMSetter />
         <div className="flex w-full flex-col gap-0 md:flex-row md:gap-4">
           <TextField
@@ -131,6 +133,40 @@ const FormSection = ({ type }: { type: FormTypes }) => {
             required={true}
           />
         </div>
+{type === "awards" && (
+  <div className="text-black">
+    <TextField
+      name="awardCategory"
+      label="Award Category"
+      as="select"
+      options={[
+        { value: "Innovative Developer of the Year", label: "Innovative Developer of the Year" },
+        { value: "Innovation in Smart Urban Development", label: "Innovation in Smart Urban Development" },
+        { value: "Digital Transformation in Property Management", label: "Digital Transformation in Property Management" },
+        { value: "Best HVAC Innovation in Real Estate", label: "Best HVAC Innovation in Real Estate" },
+        { value: "Real Estate Brand of the Year highest inventory", label: "Real Estate Brand of the Year highest inventory" },
+        { value: "Smart Integrated Development of the Year", label: "Smart Integrated Development of the Year" },
+        { value: "PropTech Integration by a Real Estate Agency", label: "PropTech Integration by a Real Estate Agency" },
+        { value: "Smart Building Project of the Year", label: "Smart Building Project of the Year" },
+        { value: "Real Estate Collaboration of the Year", label: "Real Estate Collaboration of the Year" },
+        { value: "ESG-Focused Real Estate Initiative", label: "ESG-Focused Real Estate Initiative" },
+        { value: "Technology Innovation in PropTech", label: "Technology Innovation in PropTech" },
+        { value: "PropTech Startup of the Year", label: "PropTech Startup of the Year" },
+        { value: "Best Use of AI in Real Estate", label: "Best Use of AI in Real Estate" },
+        { value: "Blockchain Innovation in Real Estate", label: "Blockchain Innovation in Real Estate" },
+        { value: "Tokenization Platform of the Year", label: "Tokenization Platform of the Year" },
+        { value: "Digital Twin or Virtual Modelling Excellence", label: "Digital Twin or Virtual Modelling Excellence" },
+        { value: "Top Real Estate Data & Analytics Platform", label: "Top Real Estate Data & Analytics Platform" },
+        { value: "IoT/Smart Infrastructure Solution of the Year", label: "IoT/Smart Infrastructure Solution of the Year" },
+        { value: "SaaS Solution of the Year (for Real Estate)", label: "SaaS Solution of the Year (for Real Estate)" },
+        { value: "Cybersecurity & Data Protection in Real Estate Tech", label: "Cybersecurity & Data Protection in Real Estate Tech" },
+        { value: "Best Overall PropTech Innovation", label: "Best Overall PropTech Innovation" },
+      ]}
+      required={true}
+    />
+  </div>
+)}
+
         <TextField
           name="message"
           label="Message (if any)"
