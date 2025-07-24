@@ -79,20 +79,22 @@ export default function TechnologyInnovation() {
             <div
               key={index}
               className={`w-full md:w-[80%] ${
-                index % 2 === 0 ? "ml-auto" : "mr-auto"
+                index % 2 === 1 ? "ml-auto" : "mr-auto"
               }`}
             >
               <div
-                className={`flex flex-col md:flex-row items-center gap-6 p-6 rounded-xl shadow-lg text-white ${category.bgColor}`}
+                className={`flex flex-col md:flex-row  items-center gap-6 p-6 relative rounded-3xl shadow-lg text-white ${category.bgColor}`}
               >
                 {/* Text */}
-                <div className="flex-1">
-                  <h3 className="text-xl font-bold mb-2">{category.title}</h3>
-                  <p className="text-blue-100">{category.description}</p>
+                <div className={`flex-1 py-4 ${index % 2 === 1 ? "pr-20" : "pl-20"}`}>
+                  <h3 className="text-2xl font-bold mb-2">{category.title}</h3>
+                  <p className="text-blue-100 text-md">{category.description}</p>
                 </div>
 
                 {/* Image */}
-                <div className="w-20 h-20 relative flex-shrink-0">
+                <div
+                  className={`w-24 h-24  bottom-0 absolute flex-shrink-0 ${index % 2 === 1 ? "right-0" : "left-0"}`}
+                >
                   <Image
                     src={trophy}
                     alt={category.title}

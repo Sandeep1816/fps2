@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button"
+import Link from "next/link"
 
 export default function CallToActionSection() {
   return (
@@ -14,9 +15,11 @@ export default function CallToActionSection() {
             <Button size="lg" className="bg-gradient-to-r from-[#3AC6D9] to-[#408CFF]  text-white px-8 py-3 font-semibold">
               Book Your Awards Seat Now
             </Button>
+            <Link href="/register?type=sponsor" >
             <Button size="lg" className="bg-gradient-to-l from-[#3AC6D9] to-[#408CFF] hover:bg-cyan-600 text-white px-8 py-3 font-semibold">
               Become a Sponsor
             </Button>
+            </Link>
             <Button size="lg" className="bg-gradient-to-r from-[#3AC6D9] to-[#408CFF] hover:bg-blue-600 text-white px-8 py-3 font-semibold">
               Nominate Your Project
             </Button>

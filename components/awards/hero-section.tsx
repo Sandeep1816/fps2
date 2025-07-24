@@ -26,9 +26,9 @@ export default function HeroSection() {
         <p className="text-4xl font-semibold mb-8  text-transparent bg-clip-text bg-gradient-to-r from-[#3AC6D9] to-[#408CFF]">14th October 2025</p>
         <Button
           size="lg"
-          className="bg-gradient-to-r from-[#3AC6D9] to-[#408CFF] hover:bg-cyan-500 text-black font-semibold px-8 py-3 text-lg"
+          className="bg-gradient-to-r from-[#3AC6D9] to-[#408CFF] hover:bg-cyan-500 text-white font-semibold px-8 py-3 text-lg"
         >
-          NOMINATE AWARDS
+          SPONSOR AWARDS
         </Button>
       </div>
     </section>

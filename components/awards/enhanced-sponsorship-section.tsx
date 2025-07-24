@@ -1,6 +1,8 @@
 import { Button } from "@/components/ui/button"
 import { Check } from "lucide-react"
 import Image from "next/image"
+import AwardsPageMainTitle from "./mainTitle"
+import Link from "next/link"
 
 const sponsorshipBenefits = [
   {
@@ -29,9 +31,12 @@ export default function EnhancedSponsorshipSection() {
   return (
     <section className="py-16 px-4 bg-white">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-bold text-blue-900 text-center mb-12">Why Sponsor the FPS Awards?</h2>
+        <AwardsPageMainTitle
+        title="Why Sponsor the FPS Awards?"
+        />
+      
 
-        <div className="bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden">
+        <div className="bg-white rounded-2xl shadow-lg border-4 border-[#F9AC5F] overflow-hidden">
           <div className="flex flex-col lg:flex-row">
             {/* Left side - Image */}
             <div className="lg:w-1/2 relative">
@@ -69,9 +74,10 @@ export default function EnhancedSponsorshipSection() {
               </div>
 
               <div className="flex flex-col sm:flex-row gap-4">
+<Link href="/register?type=sponsor" >
                 <Button className="bg-gradient-to-r from-[#3AC6D9] to-[#408CFF] hover:bg-cyan-600 text-white px-8 py-3 font-semibold">
                   Become a Sponsor
-                </Button>
+                </Button></Link>
                 <Button className="bg-gradient-to-r from-[#3AC6D9] to-[#408CFF] hover:bg-cyan-500 text-white px-8 py-3 font-semibold">
                   Download the Sponsorship Prospectus
                 </Button>

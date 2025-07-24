@@ -68,7 +68,8 @@ export default function AwardCategoriesGrid() {
       <div className="max-w-6xl mx-auto">
         {/* Title Section */}
        
-        <AwardsPageMainTitle title={" Award Categories"} />
+        <AwardsPageMainTitle title={" Award Categories"}   subTitle="The 2025 Future Proptech Awards span 20 strategic categories, thoughtfully grouped to reflect the diverse contributions shaping the future of PropTech."
+         additional="Honouring developers, agencies, public bodies, and property leaders driving real estate innovation and adoption."/>
 
         {/* Awards Grid */}
         <div className="container mx-auto grid grid-cols-1 gap-4">
@@ -79,7 +80,7 @@ export default function AwardCategoriesGrid() {
             >
               <div
                 className={`flex items-center w-full ${
-                  index % 2 === 1 ? "flex-row-reverse" : ""
+                  index % 2 === 0 ? "flex-row-reverse" : ""
                 }`}
               >
                 <div className="w-1/2 h-48 relative">
@@ -90,11 +91,11 @@ export default function AwardCategoriesGrid() {
                     className="w-full h-full object-cover rounded-xl"
                   />
                 </div>
-                <div className="w-1/2 p-6 text-white">
+                <div className="w-1/2 p-6 text-black">
                   <h3 className="text-xl font-bold mb-3 leading-tight">
                     {category.title}
                   </h3>
-                  <p className="text-cyan-50 leading-relaxed text-sm">
+                  <p className="text-black leading-relaxed text-sm">
                     {category.description}
                   </p>
                 </div>

@@ -3,9 +3,11 @@ import React from "react";
 const AwardsPageMainTitle = ({
   title,
   subTitle = "",
+  additional = "",
 }: {
   title: string;
   subTitle?: string;
+  additional?: string;
 }) => {
   return (
     <div className="text-center mb-12">
@@ -28,6 +30,10 @@ const AwardsPageMainTitle = ({
       </div>
       {subTitle && (
         <p className="text-lg text-gray-600 max-w-3xl mx-auto">{subTitle}</p>
+      )}
+
+      {additional && (
+        <p className="text-lg text-gray-600 max-w-3xl mt-4 mx-auto">{additional}</p>
       )}
     </div>
   );

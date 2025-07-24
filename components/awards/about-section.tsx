@@ -30,8 +30,8 @@ opportunity to gain industry-wide recognition, enhance your brand, and inspire f
             </p>
           </div>
           <div className="text-center mt-8">
-            <Button size="lg" className="bg-gradient-to-r from-[#3AC6D9] to-[#408CFF] text-black font-semibold px-8 py-3">
-              NOMINATE AWARDS
+            <Button size="lg" className="bg-gradient-to-r from-[#3AC6D9] to-[#408CFF] text-white font-semibold px-8 py-3">
+              Submit Your Nomination
             </Button>
           </div>
         </div>

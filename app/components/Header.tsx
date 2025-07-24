@@ -28,6 +28,7 @@ const navItems = [
   { name: "Partners", href: "/partners" },
   { name: "Blogs", href: "/blogs" },
   { name: "Participants", href: "/participants" },
+   { name: "Awards", href: "/awards" },
   { name: "Get in Touch", href: "/register" },
 ];
 
