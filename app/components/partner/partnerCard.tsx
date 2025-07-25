@@ -8,15 +8,17 @@ interface PartnerCardProps {
   logo: StaticImageData;
   website: string;
   email?: string;
+  bg?: string;
   websiteDisplayText: string;
   badgeText?: string;
-  description: string[];
+  description: string[];                              
 }
 
 export default function PartnerCard({
   name,
   logo,
   email,
+  bg="bg-transparent",
   website,
   websiteDisplayText,
   badgeText = "Media Partner",
@@ -38,7 +40,7 @@ export default function PartnerCard({
             )}
 
             {/* Logo */}
-            <div className="flex w-full justify-center md:w-1/3 md:justify-start">
+            <div className={`flex w-full justify-center md:w-1/3 md:justify-start ${bg}`}>
               <a
                 href={website}
                 target="_blank"
