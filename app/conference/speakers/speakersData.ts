@@ -277,8 +277,8 @@ A thought leader, he has authored four books, 200+ articles and papers, and deli
   },
   {
     name: "Akhmed Malorove",
-    jobTitle: " Director of Digital Product Development, Manufaqtury",
-    companyName: "Concord Group",
+    jobTitle: " Director of Digital Product Development",
+    companyName: "PRISM",
     linkedIn: "",
     speakerImage: "/image/speakers/ahmed.jpg",
     companyLogo: "/image/speakersCompanyLogo/PRVSM.png",
