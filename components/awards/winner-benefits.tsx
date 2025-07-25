@@ -2,7 +2,6 @@
 import { Button } from "@/components/ui/button";
 import { Award, Camera, Megaphone, TrendingUp } from "lucide-react";
 import AwardsPageMainTitle from "./mainTitle";
-import Link from "next/link";
 import { useState } from "react";
 import AwardsModal from "@/app/components/register/awardsModal";
 

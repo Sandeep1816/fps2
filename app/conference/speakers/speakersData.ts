@@ -278,10 +278,10 @@ A thought leader, he has authored four books, 200+ articles and papers, and deli
   {
     name: "Akhmed Malorove",
     jobTitle: " Director of Digital Product Development",
-    companyName: "PRISM",
+    companyName: "Prism By Manufaqtury",
     linkedIn: "",
     speakerImage: "/image/speakers/ahmed.jpg",
-    companyLogo: "/image/speakersCompanyLogo/PRVSM.png",
+    companyLogo: "/image/speakersCompanyLogo/PRISM.png",
     fullBio: `Akhmed Maloroev is a seasoned expert in digital solutions for commercial real estate, with over 8 years of experience in IT and product development. He holds degrees in Political Science and Economics from the Higher School of Economics (HSE) in Moscow.
 
 His career spans multiple industries including PropTech, FoodTech, and E-commerce. Since 2022, Akhmed has led the PropTech division at MANUFAQTURY, one of the leading real estate management and operations companies in Russia.

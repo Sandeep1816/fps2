@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import Image from "next/image";
 import { useRouter } from "next/navigation";
@@ -20,7 +20,7 @@ export default function ParticipantsPage() {
       alt: "Pharmaceutical Technology",
     },
     {
-      src: "/image/speakersCompanyLogo/GIA-Gold-Sponsor-Al-Bawani.png",        
+      src: "/image/speakersCompanyLogo/GIA-Gold-Sponsor-Al-Bawani.png",
       alt: "DISCOVERY PARK",
     },
     {
@@ -73,22 +73,27 @@ export default function ParticipantsPage() {
       alt: "Windmills Group",
     },
     {
-      src:
-        "/image/speakersCompanyLogo/jones-lang-lasalle-logo-png_seeklogo-260987.png",
+      src: "/image/speakersCompanyLogo/jones-lang-lasalle-logo-png_seeklogo-260987.png",
       alt: "JLL",
     },
     { src: "/image/partners/eyeofRiyadhLogo.jpg", alt: "EyeOfRiyadh" },
     { src: "/image/exhibitor/EVM.png", alt: "EVM" },
     { src: "/image/exhibitor/NEWD.png", alt: "NEWD" },
     { src: "/image/partners/SBC.png", alt: "SBC" },
-    {src:"/image/speakersCompanyLogo/DarkFilled.png",alt:"DarkFilled"},
-    {src:"/image/speakersCompanyLogo/PRVSM.png",alt:"PRVSM"},
-    {src:"/image/speakersCompanyLogo/innovo.jpg",alt:"INNOVO"},
-    {src:"/image/partners/BNC_Logo.png",alt:"BNC Network"},
-    {src:"/image/speakersCompanyLogo/FTI_Logo_DarkBlue.png",alt:"FTI_Logo_DarkBlue"},
-        {src:"/image/exhibitor/Social Media Vertical.png",alt:"Nexprop"},
-        {src:"/image/partners/fiabci-logo.png",alt:"fiabci"},
-
+    { src: "/image/speakersCompanyLogo/DarkFilled.png", alt: "DarkFilled" },
+    { src: "/image/speakersCompanyLogo/PRISM.png", alt: "PRISM" },
+    { src: "/image/speakersCompanyLogo/innovo.jpg", alt: "INNOVO" },
+    { src: "/image/partners/BNC_Logo.png", alt: "BNC Network" },
+    {
+      src: "/image/speakersCompanyLogo/FTI_Logo_DarkBlue.png",
+      alt: "FTI_Logo_DarkBlue",
+    },
+    { src: "/image/exhibitor/Social Media Vertical.png", alt: "Nexprop" },
+    {
+      src: "/image/partners/fiabci-logo.png",
+      alt: "fiabci",
+      bg: "bg-[#002f42]",
+    },
   ];
 
   return (
@@ -107,15 +112,17 @@ export default function ParticipantsPage() {
           {logos.map((logo, index) => (
             <div
               key={index}
-              className="flex h-64 items-center justify-center rounded-lg bg-white p-6 shadow-sm transition-all duration-300 hover:scale-105 hover:shadow-lg"
+              className={
+                "flex h-64 items-center justify-center bg-white rounded-lg  p-6 shadow-sm transition-all duration-300 hover:scale-105 hover:shadow-lg"
+              }
             >
               <Image
                 src={logo.src}
                 alt={logo.alt}
                 width={300}
                 height={300}
-                className="max-h-48 w-auto object-contain"
-              />    
+                className={`max-h-48 w-auto object-contain ${logo.bg}`}
+              />
             </div>
           ))}
         </div>

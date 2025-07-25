@@ -20,8 +20,8 @@ export default function AwardsDescription() {
           </div>
 
           {/* Image Section */}
-          <div className="w-full lg:w-1/2">
-            <div className="relative h-64 sm:h-72 md:h-80 lg:h-96 rounded-xl overflow-hidden shadow-lg">
+          <div className="w-full lg:w-1/2 ">
+            <div className="relative h-64 sm:h-72 md:h-80 lg:h-96 rounded-none overflow-hidden shadow-lg">
               <div className="absolute inset-0 bg-gradient-to-t from-[#3AC6D9] to-transparent z-10"></div>
               <Image
                 src="/image/awards/business-meeting.png"
