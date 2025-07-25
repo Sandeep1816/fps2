@@ -87,6 +87,7 @@ export default function ParticipantsPage() {
     {src:"/image/partners/BNC_Logo.png",alt:"BNC Network"},
     {src:"/image/speakersCompanyLogo/FTI_Logo_DarkBlue.png",alt:"FTI_Logo_DarkBlue"},
         {src:"/image/exhibitor/Social Media Vertical.png",alt:"Nexprop"},
+        {src:"/image/partners/fiabci-logo.png",alt:"fiabci"},
 
   ];
 

@@ -171,7 +171,7 @@ export const supportingPartnersData = [
   name: "BNC Network",
   logo: BNCNetwork,
   website: "http://www.saudibusinesscouncil.com",
-  websiteDisplayText: "https://www.bncnetwork.net",
+  websiteDisplayText: "www.bncnetwork.net",
   badgeText: "Supporting Partner",
   description: [
     "BNC Network is the largest project intelligence provider in the Middle East, Africa, and South Asia, tracking over 180,000+ project profiles, 200,000 companies, and 250,000 contacts across the urban, industrial, oil & gas, transport, and utilities sectors in 72 countries. BNC empowers businesses with project leads, market analytics, and sales automation tools to work smart and win projects."
@@ -182,7 +182,7 @@ export const supportingPartnersData = [
   logo: FIABCI,
   bg:"bg-[#002f42]",
   website: " https://www.fiabci.org/",
-  websiteDisplayText: "https://www.bncnetwork.net",
+  websiteDisplayText: "www.fiabci.org/",
   badgeText: "Supporting Partner",
   description: [
     "FIABCI, the International Real Estate Federation, was established in Paris in 1951 and has served the global real estate industry for more than 70 years. Under the chairmanship of Dr. Mahmoud Al Buraei, it unites developers, brokers, advisors, investors and public authorities across over 80 countries and more than one million members. FIABCI promotes responsible urban development by setting ethical standards and sharing best practices, fosters knowledge exchange through international congresses and professional training programs, and creates cross‑border business opportunities that open new markets for its members."
