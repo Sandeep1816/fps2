@@ -3,6 +3,7 @@
 import React from "react";
 import MediaPartners from "../components/partner/MediaPartners";
 import AssociatePartners from "../components/partner/AssociatePartner";
+import OtherPartners from "../components/partner/OtherPartner";
 
 export const metadata = {
   title:"Event Partners 2025 | Future PropTech Summit Dubai",
@@ -14,7 +15,7 @@ const PartnersPage: React.FC = () => {
     { href: "#media", label: "Media Partners" },
     // { href: "#strategic", label: "Strategic Partners" },
     { href: "#supporting", label: "Supporting Partners" },
-    { href: "#government", label: "Government Partners" },
+    { href: "#other", label: "Other Partners" },
   ];
 
 
@@ -31,7 +32,7 @@ const PartnersPage: React.FC = () => {
         </p>
         {/* Horizontal Navigation */}
         <nav className="mt-8">
-          <div className="mx-auto flex max-w-md flex-wrap justify-center gap-3 px-2">
+          <div className="mx-auto flex max-w-6xl flex-wrap justify-center gap-3 px-2">
             {navItems.map((item) => (
               <a
                 key={item.href}
@@ -46,7 +47,7 @@ const PartnersPage: React.FC = () => {
       </section>
 
       {/* All Partner Sections */}
-      <div className="mx-auto max-w-6xl space-y-24">
+      <div className="w-full  space-y-24">
         {/* Media Partners */}
         <section id="media" className="px-4">
           <h2 className="mb-8 text-center text-4xl font-bold text-primary">
@@ -57,15 +58,7 @@ const PartnersPage: React.FC = () => {
           </div>
         </section>
 
-        {/* Strategic Partners */}
-        {/* <section id="strategic" className="px-4">
-          <h2 className="text-4xl font-bold text-primary text-center mb-8">
-            Strategic Partners
-          </h2>
-          <div className="bg-card rounded-lg shadow-md p-6 text-center">
-            <p className="text-muted-foreground text-lg">Coming soon...</p>
-          </div>
-        </section> */}
+
 
         {/* Supporting Partners */}
         <section id="supporting" className="px-4">
@@ -80,13 +73,13 @@ const PartnersPage: React.FC = () => {
 
         
 
-        {/* Government Partners */}
-        <section id="government" className="px-4">
+        {/* Other Partners */}
+        <section id="other" className="px-4">
           <h2 className="mb-8 text-center text-4xl font-bold text-primary">
-            Government Partners
+            Other Partners
           </h2>
           <div className="rounded-lg bg-card p-6 text-center shadow-md">
-            <p className="text-lg text-muted-foreground">Coming soon...</p>
+            <OtherPartners /> 
           </div>
         </section>
       </div>
