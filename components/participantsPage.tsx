@@ -73,7 +73,8 @@ export default function ParticipantsPage() {
       alt: "Windmills Group",
     },
     {
-      src: "/image/speakersCompanyLogo/jones-lang-lasalle-logo-png_seeklogo-260987.png",
+      src:
+        "/image/speakersCompanyLogo/jones-lang-lasalle-logo-png_seeklogo-260987.png",
       alt: "JLL",
     },
     { src: "/image/partners/eyeofRiyadhLogo.jpg", alt: "EyeOfRiyadh" },
@@ -94,6 +95,7 @@ export default function ParticipantsPage() {
       alt: "fiabci",
       bg: "bg-[#002f42]",
     },
+    { src: "/image/speakersCompanyLogo/DXB.png", alt: "DXBinteract" },
   ];
 
   return (

@@ -308,6 +308,27 @@ PRYSM supports the full lease lifecycle, simplifies access control, and automate
     companyLogo: "/image/speakersCompanyLogo/FTI_Logo_DarkBlue.png",
     fullBio: `Jorge Carrasco is a recognized expert in blockchain and digital assets, with a focus on real estate tokenization and financial innovation. As Managing Director at FTI Consulting in Dubai, he advises developers, regulators, and financial institutions on structuring tokenized real estate offerings and regulatory alignment. Jorge has led some of the Middle East’s most ambitious tokenization initiatives, helping transform illiquid real estate assets into accessible digital investment products. With over 15 years of experience, he bridges traditional finance with cutting-edge Web3 infrastructure, shaping the future of real estate capital markets and programmable ownership.`,
   },
+    {
+    name: "Fateh Al-Msaddi",
+    jobTitle: "Founder",
+    companyName: "DXBinteract",
+    linkedIn: "https://www.linkedin.com/in/fateh-al-msaddi/",
+    speakerImage: "/image/speakers/fateh.png",
+    companyLogo: "/image/speakersCompanyLogo/DXB.png",
+    fullBio: ` Fateh Al-Msaddi is the Chief Operating Officer at fäm Properties, Dubai's leading real estate agency, and the visionary founder of DXBinteract—a comprehensive real estate platform empowering investors, landlords, and tenants to make informed property decisions.
+
+
+With over 12 years of experience at fäm Properties, Fateh has been a driving force behind the company's technological advancements and operational excellence.
+
+
+He holds a Bachelor's degree in Management Information Systems from Aleppo University.
+
+
+Fateh is passionate about technology and creating new market value, channeling this passion into the development of advanced tools that provide unmatched insights into the Dubai property market.
+
+
+His leadership transcends technology, focusing on management, process improvement, and professional development.`,
+  },
 ];
 
 export default speakers;
