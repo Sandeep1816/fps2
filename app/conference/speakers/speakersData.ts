@@ -9,14 +9,14 @@ export interface Speaker {
 }
 const speakers: Speaker[] = [
   {
-    name: "Sarah Hewerdine",
-    jobTitle: "Director of Marketing",
+    name: "Manar Mahmassani",
+    jobTitle: "Co-Founder & Co-CEO",
     companyName: "Stake",
-    linkedIn: "https://www.linkedin.com/in/sarahhewerdine",
-    speakerImage: "/image/speakers/Sarah Hewerdine_Headshot.PNG", // Replace with actual image path
+    linkedIn: "https://www.linkedin.com/in/manarm",
+    speakerImage: "/image/speakers/manar.png", // Replace with actual image path
     companyLogo: "/image/speakersCompanyLogo/Stake Logo.png", // Replace with actual logo path
     fullBio:
-      "Sarah Hewerdine is a leader in the UAE Proptech industry known for her expertise in real estate marketplace dynamics, scaling businesses and driving hypergrowth across both new business verticals and high-growth startups. Sarah was previously the property commentator for The Business Breakfast on Dubai Eye 103.8, providing expert insights on current market trends. She is currently the Director of Marketing at Stake, a real estate investment platform and one of the Middle East’s fastest growing fintechs. Additionally, Sarah serves as a Board of Director at Gulf for Good, a UAE-based nonprofit focused on enhancing children’s education in developing countries.",
+      "18+ years of experience leading private investment transactions in the MENA region. Manar spent 9 years at Deutsche Bank, where he became Head of MENA Structured Credit and Global Head of Islamic Structuring. Following DB, he joined Falcon Group, a leading global alternative finance provider as Head of Corporate Finance. Throughout his career, Manar has executed over $6bn worth of transactions for corporates, family offices, quasi-sovereigns and financial institutions. Manar holds a BSc in Mathematics and Economics from the London School of Economics and a CFA Level II certificate.",
   },
 
   {
@@ -290,7 +290,7 @@ At MANUFAQTURY, he oversees the development of digital services that streamline 
 
 PRYSM supports the full lease lifecycle, simplifies access control, and automates service request handling. Today, more than 25,000 users rely on MANUFAQTURY’s PropTech solutions.`,
   },
-    {
+  {
     name: "Deepika Verma",
     jobTitle: " ESG Manager",
     companyName: "Innovo Group",
@@ -299,7 +299,7 @@ PRYSM supports the full lease lifecycle, simplifies access control, and automate
     companyLogo: "/image/speakersCompanyLogo/innovo.jpg",
     fullBio: `Deepika Verma is the ESG Manager at Innovo Group, a construction firm headquartered in the UK with global operations and large footprint in the UAE. With over 20 years of cross-sector experience, she has spent the last several years driving sustainability strategies and ESG integration across complex business operations. Her expertise spans GRI reporting, Scope 3 emissions, stakeholder engagement, and green procurement. Deepika has led multiple corporate sustainability initiatives, including supplier sustainability assessments and GHG emissions management, contributing to Innovo’s commitment to environmental stewardship. She holds certifications such as LEED Green Associate, ISO 14064 Lead Verifier, and GRI Professional. Deepika is also currently pursuing a Master’s in Sustainability and Energy from the University of Cumbria, strengthening her leadership in sustainable development.`,
   },
-      {
+  {
     name: "Jorge Carrasco",
     jobTitle: " Managing Director, Blockchain and Digital Assets",
     companyName: "FTI Consulting",
@@ -308,7 +308,7 @@ PRYSM supports the full lease lifecycle, simplifies access control, and automate
     companyLogo: "/image/speakersCompanyLogo/FTI_Logo_DarkBlue.png",
     fullBio: `Jorge Carrasco is a recognized expert in blockchain and digital assets, with a focus on real estate tokenization and financial innovation. As Managing Director at FTI Consulting in Dubai, he advises developers, regulators, and financial institutions on structuring tokenized real estate offerings and regulatory alignment. Jorge has led some of the Middle East’s most ambitious tokenization initiatives, helping transform illiquid real estate assets into accessible digital investment products. With over 15 years of experience, he bridges traditional finance with cutting-edge Web3 infrastructure, shaping the future of real estate capital markets and programmable ownership.`,
   },
-    {
+  {
     name: "Fateh Al-Msaddi",
     jobTitle: "Founder",
     companyName: "DXBinteract",
