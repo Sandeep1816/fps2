@@ -12,6 +12,8 @@ import entrepreneurLogo from "@/public/image/partners/entrepreneurme.jpg";
 import timesofAILogo from "@/public/image/partners/timesofai 01.png";
 import BNCNetwork from "@/public/image/partners/BNC_Logo.png";
 import FIABCI from "@/public/image/partners/fiabci-logo.png";
+import propertyMagzine from "@/public/image/partners/propertyMagzine.png";
+import propertyTime from "@/public/image/partners/propertyTime.png";
 
 export const mediaPartnersData = [
   {
@@ -135,6 +137,28 @@ export const mediaPartnersData = [
       "Through strategic partnerships with global organizations, we ensure every campaign drives real results—whether your goal is brand awareness, lead generation, or market expansion",
     ],
   },
+  {
+    name: "Property Technology Magazine",
+    logo: propertyMagzine,
+    website: "https://www.propertytechnologymagazine.com",
+    websiteDisplayText: "www.propertytechnologymagazine.com",
+    badgeText: "Media Partner",
+    description: [
+      "Property Technology Magazine (PTM) is a premier global media platform accelerating innovation across the real estate and built environment. Trusted by thousands of executives, investors, and founders worldwide, PTM delivers expert analysis, data-driven insights, and curated coverage across PropTech, multifamily, retail, and construction technology (ConTech).",
+
+      "With a focus on digital transformation and emerging technologies, PTM offers thought leadership, proprietary research, and exclusive interviews with the visionaries shaping tomorrow’s real estate. As a trusted resource for navigating disruption, PTM empowers decision-makers across sectors to stay ahead of the curve.",
+    ],
+  },
+  {
+    name: "Property Time",
+    logo: propertyTime,
+    website: "https://www.propertytime.ae",
+    websiteDisplayText: "www.propertytime.ae",
+    badgeText: "Media Partner",
+    description: [
+      "Property Time magazine (previously known as Property Times) was launched in December 2012 as a first of its kind real estate magazine in Dubai with over 20,000 copies in circulation monthly, which was then doubled to 40,000 copies per month in 2013. Property Time has been recognized by Dubai Land Department as the ‘Best Real Estate Publication’ at Gulf Real Estate Awards. The magazine covers a wide range of topics related to the real estate market in the UAE and the MENA region.",
+    ],
+  },
 ];
 
 export const supportingPartnersData = [
@@ -165,57 +189,29 @@ export const supportingPartnersData = [
 
       "The institution’s sole mission is to promote the interests of the Kingdom of Saudi Arabia by attracting world-class investment and facilitating transformative partnerships that drive sustainable growth and opportunity for all. Every initiative and alliance undertaken by the SBC reflects a profound sense of responsibility, honoring the welfare and lasting legacy of the Kingdom. The Saudi Business Council warmly welcomes visionary investors and partners from around the globe to join this institution in shaping a future defined by shared prosperity, dynamic innovation, and lasting success in the Kingdom of Saudi Arabia.",
     ],
-
   },
-// {
-//   name: "BNC Network",
-//   logo: BNCNetwork,
-//   website: "http://www.saudibusinesscouncil.com",
-//   websiteDisplayText: "www.bncnetwork.net",
-//   badgeText: "Supporting Partner",
-//   description: [
-//     "BNC Network is the largest project intelligence provider in the Middle East, Africa, and South Asia, tracking over 180,000+ project profiles, 200,000 companies, and 250,000 contacts across the urban, industrial, oil & gas, transport, and utilities sectors in 72 countries. BNC empowers businesses with project leads, market analytics, and sales automation tools to work smart and win projects."
-//   ],
-// },
-// {
-//   name: "FIABCI",
-//   logo: FIABCI,
-//   bg:"bg-[#002f42]",
-//   website: " https://www.fiabci.org/",
-//   websiteDisplayText: "www.fiabci.org/",
-//   badgeText: "Supporting Partner",
-//   description: [
-//     "FIABCI, the International Real Estate Federation, was established in Paris in 1951 and has served the global real estate industry for more than 70 years. Under the chairmanship of Dr. Mahmoud Al Buraei, it unites developers, brokers, advisors, investors and public authorities across over 80 countries and more than one million members. FIABCI promotes responsible urban development by setting ethical standards and sharing best practices, fosters knowledge exchange through international congresses and professional training programs, and creates cross‑border business opportunities that open new markets for its members."
-//   ],
-// }
-
-  
 ];
 
 export const otherPartnersData = [
-
-{
-  name: "BNC Network",
-  logo: BNCNetwork,
-  website: "http://www.saudibusinesscouncil.com",
-  websiteDisplayText: "www.bncnetwork.net",
-  badgeText: "Intelligence Partner",
-  description: [
-    "BNC Network is the largest project intelligence provider in the Middle East, Africa, and South Asia, tracking over 180,000+ project profiles, 200,000 companies, and 250,000 contacts across the urban, industrial, oil & gas, transport, and utilities sectors in 72 countries. BNC empowers businesses with project leads, market analytics, and sales automation tools to work smart and win projects."
-  ],
-},
-{
-  name: "FIABCI",
-  logo: FIABCI,
-  bg:"bg-[#002f42]",
-  website: " https://www.fiabci.org/",
-  websiteDisplayText: "www.fiabci.org/",
-  badgeText: "Knowledge Partner",
-  description: [
-    "FIABCI, the International Real Estate Federation, was established in Paris in 1951 and has served the global real estate industry for more than 70 years. Under the chairmanship of Dr. Mahmoud Al Buraei, it unites developers, brokers, advisors, investors and public authorities across over 80 countries and more than one million members. FIABCI promotes responsible urban development by setting ethical standards and sharing best practices, fosters knowledge exchange through international congresses and professional training programs, and creates cross‑border business opportunities that open new markets for its members."
-  ],
-}
-
-
-  
+  {
+    name: "BNC Network",
+    logo: BNCNetwork,
+    website: "http://www.saudibusinesscouncil.com",
+    websiteDisplayText: "www.bncnetwork.net",
+    badgeText: "Intelligence Partner",
+    description: [
+      "BNC Network is the largest project intelligence provider in the Middle East, Africa, and South Asia, tracking over 180,000+ project profiles, 200,000 companies, and 250,000 contacts across the urban, industrial, oil & gas, transport, and utilities sectors in 72 countries. BNC empowers businesses with project leads, market analytics, and sales automation tools to work smart and win projects.",
+    ],
+  },
+  {
+    name: "FIABCI",
+    logo: FIABCI,
+    bg: "bg-[#002f42]",
+    website: " https://www.fiabci.org/",
+    websiteDisplayText: "www.fiabci.org/",
+    badgeText: "Knowledge Partner",
+    description: [
+      "FIABCI, the International Real Estate Federation, was established in Paris in 1951 and has served the global real estate industry for more than 70 years. Under the chairmanship of Dr. Mahmoud Al Buraei, it unites developers, brokers, advisors, investors and public authorities across over 80 countries and more than one million members. FIABCI promotes responsible urban development by setting ethical standards and sharing best practices, fosters knowledge exchange through international congresses and professional training programs, and creates cross‑border business opportunities that open new markets for its members.",
+    ],
+  },
 ];

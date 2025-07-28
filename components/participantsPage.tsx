@@ -96,6 +96,14 @@ export default function ParticipantsPage() {
       bg: "bg-[#002f42]",
     },
     { src: "/image/speakersCompanyLogo/DXB.png", alt: "DXBinteract" },
+    {
+      src: "/image/partners/propertyMagzine.png",
+      alt: "propertyMagzine",
+    },
+    {
+      src: "/image/partners/propertyTime.png",
+      alt: "propertyMTime",
+    },
   ];
 
   return (
