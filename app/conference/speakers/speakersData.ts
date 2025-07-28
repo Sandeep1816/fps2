@@ -317,15 +317,11 @@ PRYSM supports the full lease lifecycle, simplifies access control, and automate
     companyLogo: "/image/speakersCompanyLogo/DXB.png",
     fullBio: ` Fateh Al-Msaddi is the Chief Operating Officer at fäm Properties, Dubai's leading real estate agency, and the visionary founder of DXBinteract—a comprehensive real estate platform empowering investors, landlords, and tenants to make informed property decisions.
 
-
 With over 12 years of experience at fäm Properties, Fateh has been a driving force behind the company's technological advancements and operational excellence.
-
 
 He holds a Bachelor's degree in Management Information Systems from Aleppo University.
 
-
 Fateh is passionate about technology and creating new market value, channeling this passion into the development of advanced tools that provide unmatched insights into the Dubai property market.
-
 
 His leadership transcends technology, focusing on management, process improvement, and professional development.`,
   },
