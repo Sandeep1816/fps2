@@ -3,7 +3,7 @@ export const metadata = {
   description: "Stay updated with the latest in PropTech, smart cities, and real estate innovation. Explore expert articles, news, and trends from Future PropTech Summit 2025.",
 };
 
-export const revalidate = 60;
+export const revalidate = 3600;
 
 import { getBlogPostsByProject } from "@/sanity/lib/blogs";
 import BlogGridClient from "../components/blogs";
