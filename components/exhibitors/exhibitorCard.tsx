@@ -4,7 +4,6 @@ import Image from "next/image";
 import React from "react";
 import type { StaticImageData } from "next/image";
 
-
 interface ExhibitorCardProps {
   name: string;
   logo: string | StaticImageData; // Path to image or a static import
@@ -24,6 +23,9 @@ const ExhibitorCard: React.FC<ExhibitorCardProps> = ({
   badgeColor = "bg-blue-600",
   description,
 }) => {
+  const [expanded, setExpanded] = React.useState(false);
+  const hasMore = description.length > 1;
+
   return (
     <div className="relative mx-auto w-full max-w-7xl overflow-hidden rounded-2xl bg-white p-6 shadow-xl sm:p-8">
       {/* Badge */}
@@ -59,17 +61,35 @@ const ExhibitorCard: React.FC<ExhibitorCardProps> = ({
             {name}
           </h2>
 
-          {description.map((para, index) => (
-            <p
-              key={index}
-              className="mb-5 text-base text-gray-700 sm:mb-6 sm:text-lg"
-            >
-              {para}
-            </p>
-          ))}
+          <p className="text-sm leading-relaxed text-gray-700 sm:text-base">
+            {description[0]}
+          </p>
 
+          <div
+            className={`transition-all duration-500 ease-in-out overflow-hidden ${
+              expanded ? "max-h-[1000px] opacity-100" : "max-h-0 opacity-0"
+            }`}
+          >
+            {description.slice(1).map((text, i) => (
+              <p
+                key={i}
+                className="text-sm leading-relaxed text-gray-700 sm:text-base py-2 "
+              >
+                {text}
+              </p>
+            ))}
+          </div>
+
+          {hasMore && (
+            <p
+              className="text-sm leading-relaxed cursor-pointer text-blue-700 sm:text-base underline"
+              onClick={() => setExpanded(!expanded)}
+            >
+              {expanded ? "Read less" : "Read more"}
+            </p>
+          )}
           {/* Links */}
-          <div className="flex flex-col gap-3 sm:flex-row sm:gap-0 sm:space-x-4">
+          <div className="flex flex-col gap-3 sm:flex-row sm:gap-0 sm:space-x-4 mt-5">
             <a
               href={websiteUrl}
               target="_blank"
