@@ -166,7 +166,7 @@ export const supportingPartnersData = [
     name: "Middle East Facility Management Association (MEFMA)",
     logo: mefmaLogo,
     website: "https://www.mefma.org/",
-    websiteDisplayText: "www.mefa.org",
+    websiteDisplayText: "www.mefma.org",
     email: "info@mefma.org",
     badgeText: "Supporting Partner",
     description: [
