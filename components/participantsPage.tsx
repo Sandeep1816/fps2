@@ -104,6 +104,10 @@ export default function ParticipantsPage() {
       src: "/image/partners/propertyTime.png",
       alt: "propertyMTime",
     },
+       {
+      src: "/image/exhibitor/immersiv.png",
+      alt: "Immersiv",
+    },
   ];
 
   return (
