@@ -31,7 +31,7 @@ export default function HeroSection() {
           of Real Estate
         </p>
         <p className="text-4xl font-semibold mb-8  text-transparent bg-clip-text bg-gradient-to-r from-[#3AC6D9] to-[#408CFF]">
-          14th October 2025
+          15th October 2025
         </p>
 
           <Button
